@@ -1,11 +1,11 @@
 # Data Breach Prevention in Big Companies
-## Data Incubator Challenge Project Proposal - Arash Nouri
+## Data Incubator Challenge Project Proposal - Arash Nouri [GitHub](https://github.com/arasharn/Data-Incubator-Challenge-/blob/master/proposal.md)
 ### Abstract:
-***Every high-tech company afraid of transferring their technology to their rivals by their left employees.One of the way to prevent this problem is to predict the leaving employees and limited their access to the sensitive information. This project is trying to detect any suspicious behavior of eployees of a company, by analyzing thier acticvities such as eamial, browser history, sign up hour, esployment statue, file transfered, "O, C, E, A, N" score. The main goal of this study is to detect any pattern amoung the employees, who live the company and detect any suspicus activities before that. In the next step a network anaysis will be done to analyze the network of the pepople who left the company to find out if there was any recruter amoung the employees.***   
+***Every high-tech company afraid of transferring their technology to their rivals by their left employees.One of the ways to prevent this problem is to predict the leaving employees and limited their access to the sensitive information. This project is trying to detect any suspicious behavior of employees of a company, by analyzing their activities such as email, browser history, sign up times, employment statue, file transferred, "O, C, E, A, N" score. The main goal of this study is to detect any pattern amoung the employees, who live the company and detect any suspicious activities before that. In the next step, a network analysis will be done to analyze the network of the people who left the company to find out if there was any recruiter amoung the employees.***   
 ### Motivation
-Data breach is a worse nightmare of a high-tech company. As a result they try to track the on-premise activities of employees as much as possible, generating massive amounts of **data**. A comprehensive data minig is done on the data of two companies. the final product of this study will a several claasifier and regressor, which can be used by HR of companies for recogonizing the leaving employees and prediciting the length of work of each eaployee by analyzing the peronality and their online activities. 
+Data breach is a worse nightmare for a high-tech company. As a result, they try to track the on-premise activities of employees as much as possible, generating massive amounts of **data**. A comprehensive data mining is done on the data of two companies. the final product of this study will a several classifier and regressor, which can be used by HR of companies for recognizing the leaving employees and predicting the length of work of each employee by analyzing the personality and their online activities. 
 ### Data
-Data of two companies is used in this project that in total it would a 18 GB of data. Each data set, contains the log on/off activities, websites addresses, date of the activity, device ID, O, C, E, A, N score, employment statue, employment ID, type of the transfered and attached files. *Small portion of data was used for this proposal as a pre-analysis report.*   
+Data of two companies is used in this project that in total it would an 18 GB of data. Each data set, contains the log on/off activities, websites addresses, date of the activity, device ID, O, C, E, A, N score, employment statue, employment ID, type of the transferred and attached files. *Small portion of data was used for this proposal as a pre-analysis report.*   
 A small portion of data set can be found [here](http://www.apps.stat.vt.edu/leman/VTCourses/DataSets1_9182017.zip) and     
 #### Feature engineering
 The initial features are unsufficient, thus feature engineering needs to be done on the features and new features needs to be created out of the original features. There are different type of the features on the data set:   
@@ -41,9 +41,3 @@ domain_cat   | Domains of websites            | website
 [Figure 2](#visit) illustrates that all web sites are not important. For example *.com* domain is very generic but domians like *.org* or *.gov* are more subjective. The analysis like this can be used for reducing the data to see better pattern.
 ### Current Limitation and Future works
 It turns out that some of the websites are fake and it is impossible to scrap those websites. The initial analysisi show that the number of left employees are much less than stayed employess that it makes the data biased.In order to pin-point the joint network between all left employees and the pattern of employyes before leaving the company, data need to be analized and shrink down step by step. A lexicon needs to trained based on the technical vocabulary of the companies for finding the polarization of email sentiments. At the end several type of regressor need to be fit and compared for catching the pattern completly. Boosting and bagging needs to be done to overcome to the biased of the data.  
-
-
-
-
-
-
